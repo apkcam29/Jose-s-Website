@@ -50,7 +50,7 @@ div.links-container a{
 
 
 
-@media screen and (orientation:landscape) and (max-width:767px){
+@media screen and (max-width:767px){
     nav{
         display: flex;
         flex-direction: column;
