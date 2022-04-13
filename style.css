@@ -46,13 +46,22 @@ div.links-container a{
     font-size: 35px;
 }
 
-main{
+main{ 
+    
     background-size: cover;
     background-position: center;
     background-image: url(./images/kristian-angelo-xyJZvUL4_TY-unsplash.jpg);
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 80vh;
     background-color:darkgray;
+}
+main h1, h2{
+    letter-spacing: 20px;
+    font-family: 'UnifrakturCook', cursive;
+    color: white;
 }
 
 
@@ -86,6 +95,12 @@ main{
     }
     main{
         height:40vh;
+    }
+    main h1, h2{
+        letter-spacing: 10px;
+        font-family: 'UnifrakturCook', cursive;
+        color: white;
+        font-size: 20px;
     }
     }
 
