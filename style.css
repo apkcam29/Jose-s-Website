@@ -62,14 +62,36 @@ main h1, h2{
     letter-spacing: 20px;
     font-family: 'UnifrakturCook', cursive;
     color: white;
+    font-size: 8vh;
 }
 
 
 
 
-
-
-
+@media screen and(max-width:1200px) {
+    main h1, h2{
+        letter-spacing: 10px;
+        font-family: 'UnifrakturCook', cursive;
+        color: white;
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:1024px){
+    main h1, h2{
+        letter-spacing: 10px;
+        font-family: 'UnifrakturCook', cursive;
+        color: white;
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:900px){
+    main h1, h2{
+        letter-spacing: 10px;
+        font-family: 'UnifrakturCook', cursive;
+        color: white;
+        font-size: 40px;
+    }
+}
 
 @media screen and (max-width:767px){
     nav{
